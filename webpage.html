@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Resources</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        h2 {
+            color: #34495e;
+        }
+
+        p {
+            font-size: 18px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        img {
+            width: 250px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3498db;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Welcome to Student Learning Resources</h1>
+    <h2>Explore These Amazing Educational Platforms</h2>
+
+    <p>Click on any button to visit the platform and enhance your knowledge!</p>
+
+    <img src="image.jpg" alt="Student Learning">
+    <img src="learning image.jpg" alt="Books and Learning">
+
+    <div>
+        <button onclick="openSite('https://www.khanacademy.org')">Khan Academy</button>
+        <button onclick="openSite('https://www.coursera.org')">Coursera</button>
+        <button onclick="openSite('https://www.edx.org')">edX</button>
+        <button onclick="openSite('https://www.udemy.com')">Udemy</button>
+        <button onclick="openSite('https://www.codecademy.com')">Codecademy</button>
+    </div>
+
+    <script>
+        function openSite(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+
+</body>
+</html>
